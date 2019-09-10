@@ -9,6 +9,8 @@ yarn add jquery-mask-plugin
 
 ## Add to app.js
 ```javascript
+require('jquery-mask-plugin');
+
 function mask(elements, mask) {
     if (!$().mask) {
         console.error('JQuery Mask Plugin not loaded');
